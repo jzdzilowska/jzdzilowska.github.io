@@ -1,0 +1,106 @@
+@import url("https://use.typekit.net/bfx0syx.css");
+
+body {
+  font-family: "fenwick", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+}
+
+/* Update background and text colors for an elegant, minimalistic look */
+.repl {
+  position: relative;
+  /* min-height: 95vh; */
+  background-color: white; /* Dark gray background */
+  color: #808080; /* White text */
+}
+
+.repl-history {
+  height: 55vh;
+  margin: auto;
+  display: block;
+  overflow: scroll;
+  background-color: #f2f2f2; /* Slightly lighter gray background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.repl-history ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.repl-history ul li {
+  margin-bottom: 10px; /* Add space between history items */
+  padding: 10px; /* Add padding to each item */
+  background-color: white; /* Light gray background */
+}
+
+.repl-input {
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+  margin: auto;
+  padding-top: 10px;
+  height: 10vh;
+}
+
+.repl-command-box {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+button {
+  margin: auto;
+  display: block;
+  background-color: #202020;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #808080;
+}
+
+.center-table {
+  margin: 0 auto; /* This will center the table horizontally */
+}
+
+hr {
+  display: none;
+}
+
+fieldset {
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+/* Add a border to table rows and cells */
+tr,
+td {
+  border: 1px solid #ccc;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #e0e0e0;
+}
